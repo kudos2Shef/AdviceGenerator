@@ -41,7 +41,7 @@ function Api() {
 
         <br/>
         <button onClick={fetchAdvice} id='dice'>
-            <img src='src/assets/images/icon-dice.svg' alt='dice' id='icon' ></img>	
+            <img src='src/assets/images/icon-dice.svg ' alt='dice' id='icon' ></img>	
         </button>
         </div>
  
