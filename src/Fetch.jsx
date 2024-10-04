@@ -36,8 +36,8 @@ function Api() {
             </div>
 
         <br/>
-        <img id='line-desk' src='src\assets\images\pattern-divider-desktop.svg'></img>
-        <img id='line-mob' src='src\assets\images\pattern-divider-mobile.svg'></img>
+        <img id='line-desk' src='src/assets/images/pattern-divider-desktop.svg'></img>
+        <img id='line-mob' src='src/assets/images/pattern-divider-mobile.svg'></img>
 
         <br/>
         <button onClick={fetchAdvice} id='dice'>
