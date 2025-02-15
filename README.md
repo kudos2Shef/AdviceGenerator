@@ -30,8 +30,11 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+Desktop:-
+![adgen_desk](https://github.com/user-attachments/assets/ab5eaf65-714c-4e1d-8819-1d48fadc0903)
 
+Mobile:-
+![adgen_mob](https://github.com/user-attachments/assets/61bd6941-89c2-4dfd-b32f-9636743213f2)
 
 
 ### Links
