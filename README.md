@@ -36,8 +36,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution](https://github.com/kudos2Shef/AdviceGenerator)
+- Live Site URL: [Live](https://kudos2shef.github.io/AdviceGenerator/)
 
 ## My process
 
@@ -53,36 +53,33 @@ Users should be able to:
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
 
-To see how you can add code snippets, see below:
+I learned what API is and how API implemented in react to fetch data. Next time I'll use other library available for api to fetch data in react. I also learned about react components that are applied for code reusability purpose. 
 
-```html
-<h1>Some HTML code I'm proud of</h1>
 ```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
+fetch(`https://api.adviceslip.com/advice`)
+			.then((response) => {
+				return response.json()
+			})
+
+			.then((data) => {
+               
+                setAdvice(data.slip.advice)
+                setId(data.slip.id)
+			})
+    
 ```
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
+
 
 
 ### Useful resources
 
 - [Example resource 1](https://www.freecodecamp.org/news/how-to-fetch-api-data-in-react/) - This helped me to learn API functions. I will use it going forward.
 - [Example resource 2](https://www.guvi.in/blog/how-to-fetch-and-display-data-from-api-in-react/) - This is an amazing article which helped me understand API  again.
-- [Example resource 3](https://react.dev/learn/importing-and-exporting-components) - 
+- [Example resource 3](https://react.dev/learn/importing-and-exporting-components) - How importing and exporting components work in react. 
 
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@kudos2shef](https://www.frontendmentor.io/profile/kudos2Shef)
